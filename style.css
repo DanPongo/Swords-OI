@@ -1,0 +1,258 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    direction: rtl;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    display: flex;  /* Use flexbox for centering */
+    justify-content: center;  /* Center the items */
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    display: block;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Update for modern look */
+nav ul {
+    background: #60708e; /* Updated color */
+    font-size: 0; /* Remove spacing between inline-block elements */
+}
+
+nav ul li {
+    font-size: 16px; /* Reset font-size for li elements */
+}
+
+nav ul li a {
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.headline {
+    font-size: 4em;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    margin: 0 0 1px 0; /* reduced bottom margin */
+
+}
+
+/* ... (other styles remain the same) */
+
+.headline {
+    font-size: 4em;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.info-section {
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;  /* Adjusted value */
+
+}
+
+.image-container img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s; /* Added transition for smooth effect */
+}
+
+.image-container img:hover {
+    transform: scale(1.07); /* Make image larger */
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.7); /* Add yellow glow at the edges */
+}
+
+@media (min-width: 600px) {
+    .image-container img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 900px) {
+    .image-container img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+.content-section {
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.firstParagraph {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Add RTL support */
+html[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+html[dir="rtl"] nav ul {
+    text-align: right;
+}
+
+html[dir="rtl"] .content-section {
+    text-align: right;
+}
+
+.smallHeader {
+    text-align: center;
+    font-size: 2.5em;  /* you can adjust as needed */
+    margin: 2px 0 20px 0; /* reduced top margin */
+
+}
+
+.smallHeader img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;  /* changed from margin-left */
+    vertical-align: middle;
+    border-radius: 15px;  /* this makes the image corners rounded */
+
+}
+
+#clock {
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* ... (other parts of your CSS code) */
+
+.image-card {
+    text-align: center;  /* Center the text and image */
+}
+
+figcaption {
+    font-size: 0.8em;  /* Adjust the font size of the text */
+    margin-bottom: 5px;  /* Add some space between the text and the image */
+}
+
+/* ... (other parts of your CSS code) */
+.image-text {
+    font-size: 0.5em;  /* Adjust as needed */
+    text-align: center;
+}
+
+.image-box {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text {
+    position: absolute;
+    top: -55px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: #000;  /* text color */
+}
+
+
+.image-container div {
+    margin-bottom: 20px;  /* Adjusted value */
+}
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.navbar-icons a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icons i {
+    margin-right: 5px;
+}
+.bg-image {
+    /* Set the background image and size here */
+    background: url('images/flag.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    /* Set the position and size to fill the whole viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* Set a z-index lower than your content */
+    z-index: -1;
+
+    /* Add an overlay */
+}
+
+.bg-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8); /* Increased opacity for more fade */
+    z-index: -1;
+}
+

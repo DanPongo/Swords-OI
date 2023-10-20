@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>War Info</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="bg-image"></div> 
+    <div class="content">
+    <nav class="navbar">
+        <div class="container-fluid">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" id="aboutLink" href="#">אודות</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contactLink" href="#">מוקדי חירום </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="homeLink" href="#">בית</a>
+                </li>
+                <li class="nav-item">
+                                <li class="nav-item navbar-lang"> <!-- Add the class navbar-lang here -->
+
+                    <a href="#" title="Hebrew" id="hebrewButton" class="nav-link">
+                        <i class="fa fa-globe"></i> עברית
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" title="English" id="englishButton" class="nav-link">
+                        <i class="fa fa-globe"></i> English
+                    </a>
+                </li>
+            </ul>
+            <div id="clock"></div>
+        </div>
+    </nav>
+
+    <h1 class="headline" data-i18n="headline">קישורים חיוניים</h1>
+    <h2 class="smallHeader" data-i18n="smallHeader">חרבות ברזל<img src="images/swords.png" alt="swords"></h2>
+    <p class="firstParagraph" data-i18n="firstParagraph">
+        ריכזנו לכם את
+        כל המידע שאתם צריכים בנושא מוגנות, דיווחים ממשלתיים ותרומה למאמץ המלחמתי וההסברה
+        הישראלית.<br>
+        תרמו לעמותות מאובטחות ודווחו על פייק ניוז לגורמים הממשלתיים.
+        לחצו על התמונה ותועברו לאתר המבוקש.
+    </p>
+    <br><br>
+    <div class="info-section">
+        <div class="image-container">
+        </div>
+    </div>
+
+    <div id="about" class="content-section card" style="display: none;">
+        <div class="card-content">
+            <h2 data-i18n="about">אודות</h2>
+            <p data-i18n="aboutContent">נוצר כשירות לציבור על ידי דניאל הוטמכר. מוזמנים לשלוח לינקים נוספים שתרצו שאוסיף לאתר לdaniel.h12377@gmail.com</p>
+        </div>
+    </div>
+
+    <div id="contact" class="content-section card" style="display: none;">
+        <div class="card-content">
+            <h2 data-i18n="emergencyContacts"> טלפונים חיוניים </h2>
+            <ul>
+                <li>
+                    <span data-i18n="emergencyNumbers">מוקדי חירום</span>
+                    <br>
+                    <br>
+                    <ul>
+                        <li>100 - <span data-i18n="police">משטרת ישראל</span>: <span data-i18n="policeDescription">דיווח על נפלים ואירועים הקשורים לביטחון פנים.</span></li>
+                        <li>101 - <span data-i18n="mda">מד"א</span>: <span data-i18n="mdaDescription">דיווח על נפגעים וקבלת עזרה ראשונה.</span></li>
+                        <li>102 - <span data-i18n="firefighters">כבאות והצלה</span>: <span data-i18n="firefightersDescription">דיווח על שריפות ואירועי חירום.</span></li>
+                        <li>106 - <span data-i18n="municipality">עירייה</span>: <span data-i18n="municipalityDescription">שירות לתושב.</span></li>
+                        <li>108 - <span data-i18n="socialServices">שירותים חברתיים</span>: <span data-i18n="socialServicesDescription">קבלת מידע ועזרה בנושאים החברתיים.</span></li>
+                        <li>911 - <span data-i18n="emotionalSupport">מרכז תמיכה נפשית</span> <span data-i18n="emotionalSupportDescription">.</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>

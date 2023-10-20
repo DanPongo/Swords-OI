@@ -1,0 +1,47 @@
+{
+    "page1": [
+      {
+        "url": "https://www.oref.org.il/12487-15896-he/Pakar.aspx",
+        "image": "image1.jpg",
+        "text": "פיקוד העורף"
+      },
+      {
+        "url": "https://www.gov.il/he/departments/israel_national_cyber_directorate/govil-landing-page",
+        "image": "image2.jpg",
+        "text": "דיווח פייק-ניוז"
+      },
+      {
+        "url": "https://www.gov.il/he/departments/news?skip=0&limit=10",
+        "image": "image3.jpg",
+        "text": "עדכונים ממשלתיים"
+      }
+    ],
+    "page2": [
+      {
+        "url": "https://www.latet.org.il/",
+        "image": "image4.jpg",
+        "text": "עמותת לתת - תרומה"
+      },
+      {
+        "url": "https://www.standwithus.com/",
+        "image": "image5.jpg",
+        "text": "הסברה ישראלית"
+      },
+      {
+        "url": "https://www.jewishagency.org/il/fund-for-victims-of-terror/",
+        "image": "image6.jpg",
+        "text": "הקרן לסיוע נפגעי טרור"
+      },
+      {
+        "url": "https://www.jgive.com/new/he/usd/explore?action=index&category_id=39&controller=donation_targets&currency=USD&locale=en&sort=donors_count",
+        "image": "image7.jpg",
+        "text": "עמותת לתת - תרומה"
+      },
+      {
+        "url": "https://www.levechad.org/hamal-hitech-he",
+        "image": "image8.jpg",
+        "text": "חמ''ל הייטק + לב אחד"
+      }
+    ]
+  }
+  
