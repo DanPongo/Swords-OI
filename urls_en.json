@@ -1,0 +1,47 @@
+{
+    "page1": [
+      {
+        "url": "https://www.oref.org.il/12487-15896-en/Pakar.aspx",
+        "image": "image1.jpg",
+        "text": "Home Front Command"
+      },
+      {
+        "url": "https://www.gov.il/en/departments/israel_national_cyber_directorate/govil-landing-page",
+        "image": "image2.jpg",
+        "text": "Fake News Report"
+      },
+      {
+        "url": "https://www.gov.il/en/departments/news?skip=0&limit=10",
+        "image": "image3.jpg",
+        "text": "Government Updates"
+      }
+    ],
+    "page2": [
+      {
+        "url": "https://www.latet.org.il/",
+        "image": "image4.jpg",
+        "text": "Latet Organization - Donation"
+      },
+      {
+        "url": "https://www.standwithus.com/",
+        "image": "image5.jpg",
+        "text": "Israeli Advocacy"
+      },
+      {
+        "url": "https://www.jewishagency.org/en/fund-for-victims-of-terror/",
+        "image": "image6.jpg",
+        "text": "Fund for Victims of Terror"
+      },
+      {
+        "url": "https://www.jgive.com/new/en/usd/explore?action=index&category_id=39&controller=donation_targets&currency=USD&locale=en&sort=donors_count",
+        "image": "image7.jpg",
+        "text": "Latet Organization - Donation"
+      },
+      {
+        "url": "https://www.levechad.org/hamal-hitech-en",
+        "image": "image8.jpg",
+        "text": "High-tech Front + One Heart"
+      }
+    ]
+  }
+  

@@ -1,3 +1,4 @@
+/* Reset default styles */
 body {
     font-family: 'Assistant', sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     direction: rtl;
 }
 
+/* Navigation styles */
 nav {
     background-color: #333;
     overflow: hidden;
@@ -16,8 +18,8 @@ nav ul {
     list-style: none;
     text-align: center;
     margin: 0;
-    display: flex;  /* Use flexbox for centering */
-    justify-content: center;  /* Center the items */
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -30,40 +32,27 @@ nav ul li a {
     padding: 15px 25px;
     display: block;
     transition: background-color 0.3s;
-    text-align: center;
     font-size: 1.5em;
 }
 
 nav ul li a:hover {
     background-color: #555;
-    color: #fff;
 }
 
-/* Update for modern look */
 nav ul {
-    background: #60708e; /* Updated color */
-    font-size: 0; /* Remove spacing between inline-block elements */
+    background: #60708e;
+    font-size: 0;
 }
 
 nav ul li {
-    font-size: 16px; /* Reset font-size for li elements */
+    font-size: 16px;
 }
 
 nav ul li a {
-    border-radius: 5px; /* Add rounded corners */
+    border-radius: 5px;
 }
 
-.headline {
-    font-size: 4em;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
-    margin: 0 0 1px 0; /* reduced bottom margin */
-
-}
-
-/* ... (other styles remain the same) */
-
+/* Headline and Info Section styles */
 .headline {
     font-size: 4em;
     text-align: center;
@@ -75,27 +64,27 @@ nav ul li a {
     padding: 20px;
 }
 
+/* Image Container styles */
 .image-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 20px;  /* Adjusted value */
-
+    margin-bottom: 20px;
 }
 
 .image-container img {
     width: 60px;
     height: 60px;
-    border: 1px solid #333;
+    border: 1px solid #eef0f5;
     margin-bottom: 20px;
     cursor: pointer;
     border-radius: 50%;
-    transition: transform 0.3s, box-shadow 0.3s; /* Added transition for smooth effect */
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .image-container img:hover {
-    transform: scale(1.07); /* Make image larger */
-    box-shadow: 0 0 15px rgba(255, 255, 0, 0.7); /* Add yellow glow at the edges */
+    transform: scale(1.07);
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.7);
 }
 
 @media (min-width: 600px) {
@@ -112,7 +101,7 @@ nav ul li a {
     }
 }
 
-
+/* Content Section and Card styles */
 .content-section {
     padding: 20px;
 }
@@ -121,7 +110,6 @@ nav ul li a {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
     margin: 20px;
 }
 
@@ -134,34 +122,29 @@ nav ul li a {
     font-size: 24px;
 }
 
-/* Add RTL support */
+/* RTL Text Alignment */
 html[dir="rtl"] {
     direction: rtl;
     text-align: right;
 }
 
-html[dir="rtl"] nav ul {
+html[dir="rtl"] nav ul, html[dir="rtl"] .content-section {
     text-align: right;
 }
 
-html[dir="rtl"] .content-section {
-    text-align: right;
-}
-
+/* Small Header and Clock styles */
 .smallHeader {
     text-align: center;
-    font-size: 2.5em;  /* you can adjust as needed */
-    margin: 2px 0 20px 0; /* reduced top margin */
-
+    font-size: 2.5em;
+    margin: 2px 0 20px 0;
 }
 
 .smallHeader img {
     width: 40px;
     height: 40px;
-    margin-right: 10px;  /* changed from margin-left */
+    margin-right: 10px;
     vertical-align: middle;
-    border-radius: 15px;  /* this makes the image corners rounded */
-
+    border-radius: 15px;
 }
 
 #clock {
@@ -174,21 +157,14 @@ html[dir="rtl"] .content-section {
     top: 0;
 }
 
-/* ... (other parts of your CSS code) */
-
-.image-card {
-    text-align: center;  /* Center the text and image */
+/* Image Card and Text styles */
+.image-card, .image-text {
+    text-align: center;
 }
 
 figcaption {
-    font-size: 0.8em;  /* Adjust the font size of the text */
-    margin-bottom: 5px;  /* Add some space between the text and the image */
-}
-
-/* ... (other parts of your CSS code) */
-.image-text {
-    font-size: 0.5em;  /* Adjust as needed */
-    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 5px;
 }
 
 .image-box {
@@ -201,15 +177,15 @@ figcaption {
     top: -55px;
     left: 0;
     width: 100%;
-    text-align: center;
     font-size: 1.2em;
-    color: #000;  /* text color */
+    color: #000;
 }
-
 
 .image-container div {
-    margin-bottom: 20px;  /* Adjusted value */
+    margin-bottom: 20px;
 }
+
+/* Navbar Icons styles */
 .navbar-icons {
     display: flex;
     align-items: center;
@@ -227,22 +203,17 @@ figcaption {
 .navbar-icons i {
     margin-right: 5px;
 }
+
+/* Background Image styles */
 .bg-image {
-    /* Set the background image and size here */
     background: url('images/flag.jpg') no-repeat center center fixed;
     background-size: cover;
-
-    /* Set the position and size to fill the whole viewport */
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-
-    /* Set a z-index lower than your content */
     z-index: -1;
-
-    /* Add an overlay */
 }
 
 .bg-image::after {
@@ -252,7 +223,109 @@ figcaption {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.8); /* Increased opacity for more fade */
+    background: rgba(255, 255, 255, 0.7);
     z-index: -1;
 }
+
+/* For screens up to 600px width (mobile devices) */
+@media (max-width: 600px) {
+    body {
+        font-size: 8px;
+    }
+
+    .headline {
+        font-size: 2em;
+    }
+
+    .smallHeader {
+        font-size: 2.9em;
+    }
+
+    .firstParagraph {
+        font-size: 13px;
+    }
+
+    nav ul li a {
+        font-size: 0.99em;
+        padding: 15px 3px;
+    }
+
+    #clock {
+        display: none;
+    }
+
+    .smallHeader img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .image-container img {
+        width: 60px;
+        height: 60px;
+        border: 1px solid #eef0f5;
+        margin-bottom: 40px;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    /* Style the flag buttons */
+.flag-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease; /* Apply the transition to transform only */
+    background-color: transparent !important; /* Set background to transparent */
+    border: none; /* Remove border */
+    padding: 0; /* Remove padding */
+    margin-right: 5px;
+}
+
+.flag-button img {
+    width: 11px; /* Adjust the width as needed */
+    height: 11px; /* Adjust the height as needed */
+    margin-right: 2px;
+    margin-top: 5px;
+     /* Adjust the spacing between the flag and text as needed */
+}
+
+/* Scale the image on hover */
+
+}
+
+/* Style the flag buttons */
+.flag-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease; /* Apply the transition to transform only */
+    background-color: transparent !important; /* Set background to transparent */
+    border: none; /* Remove border */
+    padding: 0; /* Remove padding */
+    margin-right: 30px;
+}
+
+.flag-button img {
+    width: 35px; /* Adjust the width as needed */
+    height: 35px; /* Adjust the height as needed */
+    margin-right: 5px;
+    margin-top: 12px;
+     /* Adjust the spacing between the flag and text as needed */
+}
+
+/* Scale the image on hover */
+.flag-button:hover img {
+    transform: scale(1.2); /* Increase the scale on hover for a smooth transition */
+}
+
+/* Add hover behavior for other navigation items */
+nav ul li a:hover:not(.flag-button) {
+    background-color: #555; /* Keep the hover background color for other navigation items */
+}
+
+
+
+
+
 
