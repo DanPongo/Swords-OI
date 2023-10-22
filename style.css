@@ -96,8 +96,8 @@ nav ul li a {
 
 @media (min-width: 900px) {
     .image-container img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -174,7 +174,7 @@ figcaption {
 
 .image-text {
     position: absolute;
-    top: -55px;
+    top: -75px;
     left: 0;
     width: 100%;
     font-size: 1.2em;
@@ -182,7 +182,7 @@ figcaption {
 }
 
 .image-container div {
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
 
 /* Navbar Icons styles */
@@ -232,7 +232,10 @@ figcaption {
     body {
         font-size: 8px;
     }
-
+    .image-text {
+        top: -48px; /* adjust as needed */
+    }
+    
     .headline {
         font-size: 2em;
     }
@@ -246,8 +249,14 @@ figcaption {
     }
 
     nav ul li a {
-        font-size: 0.99em;
-        padding: 15px 3px;
+        font-size: 0.9em;
+        padding: 11px 3px;
+        margin-bottom: 5px;
+       
+
+    }
+    .nav-link {
+        padding-top: 18px;  /* Adjust this value as needed */
     }
 
     #clock {
@@ -282,10 +291,10 @@ figcaption {
 }
 
 .flag-button img {
-    width: 11px; /* Adjust the width as needed */
-    height: 11px; /* Adjust the height as needed */
+    width: 10px; /* Adjust the width as needed */
+    height: 10px; /* Adjust the height as needed */
     margin-right: 2px;
-    margin-top: 5px;
+    margin-top: 10px;
      /* Adjust the spacing between the flag and text as needed */
 }
 
@@ -307,10 +316,10 @@ figcaption {
 }
 
 .flag-button img {
-    width: 35px; /* Adjust the width as needed */
-    height: 35px; /* Adjust the height as needed */
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
     margin-right: 5px;
-    margin-top: 12px;
+    margin-top: 10px;
      /* Adjust the spacing between the flag and text as needed */
 }
 

@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (language === "en") {
             document.getElementById("homeLink").textContent = "Home";
             document.getElementById("aboutLink").textContent = "About";
-            document.getElementById("contactLink").textContent = "Contacts";
+            document.getElementById("contactLink").textContent = "Emergency Contacts";
             document.querySelectorAll("[data-i18n]").forEach(element => {
                 element.textContent = i18n.en[element.dataset.i18n];
             });
@@ -140,5 +140,3 @@ const i18n = {
         emotionalSupportDescription: ".",
     }
 };
-
-

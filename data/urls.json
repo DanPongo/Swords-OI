@@ -18,9 +18,9 @@
     ],
     "page2": [
       {
-        "url": "https://www.latet.org.il/",
-        "image": "image4.jpg",
-        "text": "עמותת לתת - תרומה (Latet Donation)"
+        "url": "https://www.idf.il/?fbclid=IwAR14NjxjtAAoSDCWSaJustq3P55jY0_fzvVnCsRva-UZQP4g0maupqW-TbQ",
+        "image": "dover.jpg",
+        "text": "דובר צהל (IDF SpokesPerson)"
       },
       {
         "url": "https://www.standwithus.com/",
@@ -41,6 +41,31 @@
         "url": "https://www.levechad.org/hamal-hitech-he",
         "image": "image8.jpg",
         "text": "חמ''ל הייטק + לב אחד (Tech + 1Heart)"
+      },
+      {
+        "url": "https://www.kibbutz.org.il/he/articles/%D7%A7%D7%A8%D7%9F-%D7%97%D7%99%D7%A8%D7%95%D7%9D-%D7%9C%D7%92%D7%99%D7%95%D7%A1-%D7%AA%D7%A8%D7%95%D7%9E%D7%95%D7%AA-%D7%A2%D7%91%D7%95%D7%A8-%D7%A7%D7%99%D7%91%D7%95%D7%A6%D7%99-%D7%A2%D7%95%D7%98%D7%A3-%D7%A2%D7%96%D7%94-emergency-fund-support-kibbutzim-near-gaza",
+        "image": "kibuts.jpg",
+        "text": "תרומה לקיבוצי העוטף (Kibbuts Donation)"
+      },
+      {
+        "url": "https://www.latet.org.il/",
+        "image": "image4.jpg",
+        "text": "עמותת לתת - תרומה (Latet Donation)"
+      },
+      {
+        "url": "https://www.mdais.org/blood-donation/blood-arangments",
+        "image": "blood.jpg",
+        "text": "תרומת דם (Blood Donation)"
+      },
+       {
+        "url": "https://www.emekyizrael.org.il/%D7%90%D7%99%D7%A8%D7%95%D7%97-%D7%AA%D7%95%D7%A9%D7%91%D7%99%D7%9D-%D7%9E%D7%94%D7%93%D7%A8%D7%95%D7%9D-%D7%95%D7%94%D7%A6%D7%A4%D7%95%D7%9F/",
+        "image": "izrael.jpg",
+        "text": "אירוח בעמק יזרעאל (Hosting Group)"
+      },
+      {
+        "url": "https://www.facebook.com/groups/connectThePeriphery/?locale=he_IL",
+        "image": "host.jpg",
+        "text": "אירוח תושבי הדרום (Hosting Group)"
       }
     ]
   }
